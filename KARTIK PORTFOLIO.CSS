@@ -240,6 +240,8 @@ nav {
 .card p {
     color: var(--gray);
 }
+
+/*projects*/
 .projects {
     padding: 10rem 0;
 }
@@ -256,6 +258,8 @@ nav {
     border-radius: 10px;
     border: 1px solid #222;
     transition: 0.3s;
+    display: flex;             
+    flex-direction: column; 
 }
 
 .project-card:hover {
@@ -269,13 +273,14 @@ nav {
 
 .project-card p {
     color: var(--gray);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;  
 }
 
 .project-tech {
-    display: flex;
+   display: flex;
     gap: 1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;   
+    flex-wrap: wrap;  
 }
 
 .project-tech span {
@@ -284,6 +289,15 @@ nav {
     border-radius: 5px;
     font-size: 0.8rem;
 }
+.project-card .btn {
+    margin-top: auto;      
+    width: fit-content;
+}
+
+.project-card {
+    gap: 0.5rem;
+}
+
 /* Skills */
 .skills {
     padding: 10rem 0;
