@@ -298,6 +298,10 @@ nav {
     gap: 0.5rem;
 }
 
+.project-btn-wrapper {
+    margin-top: 10px;
+}
+
 /* Skills */
 .skills {
     padding: 10rem 0;
